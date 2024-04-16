@@ -1,7 +1,7 @@
 import { Soldier } from "./Soldier"
 
 export class Saxon extends Soldier {
-    constructor( strength: number, health: number) {
+    constructor(strength: number, health: number) {
     super(strength, health)
   }
   

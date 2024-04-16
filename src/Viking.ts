@@ -17,7 +17,7 @@ export class Viking extends Soldier {
      
  }
 
-battleCkry() { 
+battleCry() { 
     return "Odin Owns You All!";
 }
 }
