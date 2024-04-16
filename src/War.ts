@@ -18,7 +18,10 @@ export class War {
     this.saxonArmy.push(saxon);
   }
 
-  vikingAttack(Saxon.receiveDamage === Viking.health){
-this
+  vikingAttack(){
+    let randomSaxonNumber = Math.floor(Math.random() * this.saxonArmy.length)
+    let randomVikingNumber = Math.floor(Math.random() * this.vikingArmy.length)
+    
+
   }
 }
