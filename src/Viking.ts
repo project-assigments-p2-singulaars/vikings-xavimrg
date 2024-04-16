@@ -6,4 +6,18 @@ export class Viking extends Soldier {
     super(strength, health);
     this.name = name;
   }
+
+ receiveDamage(damage: number){
+     this.health = this.health - damage
+     if (this.health > 0){
+        return `${this.name} has received ${damage} points of damage`
+     } else if (this.health === 0){
+        return `${this.name} has died in act of combat`
+     }
+     
+ }
+
+battleCkry() { 
+    return "Odin Owns You All!";
+}
 }
